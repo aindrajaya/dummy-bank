@@ -23,6 +23,8 @@ Dummy Bank is a mock banking service built using Spring Boot, providing a simple
 - You can copy the `dummy.ofx` file to the folder that you want to execute the request command
 - Access the API at `http://localhost:8080/ofx`.
 - Open new terminal and write this command on terminal: `curl -X POST http://localhost:8080/ofx -H "Content-Type: application/x-ofx" --data-binary "@dummy.ofx"`
+<img width="600" alt="Create Next App running in terminal" src="https://raw.githubusercontent.com/aindrajaya/dummy-bank/refs/heads/main/assets/image1.png" />
+
 
 If you run into any issues or have feedback, please [file an issue](https://github.com/aindrajaya/dummy-bank/issues/new)
 
