@@ -18,7 +18,7 @@ Dummy Bank is a mock banking service built using Spring Boot, providing a simple
 
 ## Getting Started
 - Clone the repository.
-- Install dependencies using Maven.
+- Install dependencies using Maven (`mvn install`).
 - Run the application with Spring Boot (`mvn spring-boot:run`).
 - You can copy the `dummy.ofx` file to the folder that you want to execute the request command
 - Access the API at `http://localhost:8080/ofx`.
